@@ -1,8 +1,8 @@
-# fullWidthChatGPT Firefox Extension
+# [<img src="doc/bigIcon.png" height="30">](doc/bigIcon.png) fullWidthChatGPT Firefox Extension
 
-This Firefox extension allows users to toggle between the default view and a full-width layout with a simple click on the extension's icon.
+Firefox extension that allows users to toggle between the default view and a full-width layout with a simple click on the extension icon.
 
-![GIF showing the usage of the extenstion](./doc/fullWidthChatGPT_V2.gif)
+[<img src="doc/fullWidthChatGPT_V2.gif" height="500">](doc/fullWidthChatGPT_V2.gif)
 
 ## Features
 
