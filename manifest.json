@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Full Width ChatGPT",
+    "version": "1.0",
+    "description": "Adjusts the CSS of ChatGPT to utilize full width.",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "tabs",
+      "*://chat.openai.com/*"
+    ],
+    "browser_action": {
+      "default_icon": {
+        "48": "icons/fullWidthChatGPT_off.png"
+      },
+      "default_title": "Full Width ChatGPT"
+    },
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "icons": {
+      "48": "icons/fullWidthChatGPT_on.png"
+    }
+  }
+  
