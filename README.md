@@ -7,12 +7,14 @@ This Firefox extension, "fullWidthChatGPT," allows users to toggle between the d
 ## Features
 
 **Toggle Layout:** Users can easily switch between the default and full-width layouts of chat.openai.com.
+
 **Persistent State:** The extension remembers your last setting (ON/OFF) across browser sessions.
+
 **Easy to Use:** A simple click on the extension icon activates or deactivates the full-width layout.
 
 ## Installation
 
-is getting Added as soon as the exention is available on [addons.mozilla.org](https://addons.mozilla.org/de/firefox/extensions/)
+will be added as soon as the extension is available on [addons.mozilla.org](https://addons.mozilla.org/de/firefox/extensions/)
 
 ## How It Works
 
