@@ -6,7 +6,7 @@ This Firefox extension, "fullWidthChatGPT," allows users to toggle between the d
 
 ## Features
 
-**Toggle Layout:** Users can easily switch between the default and full-width layouts of chat.openai.com.
+**Toggle Layout:** Users can easily switch between the default and full-width layouts of [chat.openai.com](https://chat.openai.com)
 
 **Persistent State:** The extension remembers your last setting (ON/OFF) across browser sessions.
 
@@ -18,19 +18,17 @@ will be added as soon as the extension is available on [addons.mozilla.org](http
 
 ## How It Works
 
-The extension works by injecting custom CSS into [chat.openai.com](https://chat.openai.com) chat.openai.com pages to alter the layout. When activated, it expands certain elements to utilize the full width of the browser window, enhancing readability and user experience.
+The extension works by injecting custom CSS into [chat.openai.com](https://chat.openai.com) pages to alter the layout. When activated, it expands certain elements to utilize the full width of the browser window, enhancing readability and user experience.
 
 ### Key components
 
 **manifest.json:** Defines the structure and permissions of the extension.
+
 **background.js:** Manages the state of the extension and applies CSS changes.
+
 **full-width.css:** Contains the CSS rules applied when the extension is active.
 
-When the extension is toggled, background.js injects or removes the CSS defined in full-width.css, depending on the current state.
-
-## Contributing
-
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
+When the extension is toggled, background.js injects the CSS defined in full-width.css or reloads the page, depending on the current state.
 
 ## License
 
