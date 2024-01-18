@@ -14,7 +14,7 @@ Firefox extension that allows users to toggle between the default view and a ful
 
 ## Installation
 
-will be added as soon as the extension is available on [addons.mozilla.org](https://addons.mozilla.org/de/firefox/extensions/)
+Extension is available on [https://addons.mozilla.org/firefox/addon/fullwidthchatgpt/](https://addons.mozilla.org/firefox/addon/fullwidthchatgpt/)
 
 ## How It Works
 
@@ -29,6 +29,18 @@ The extension works by injecting custom CSS into [chat.openai.com](https://chat.
 **full-width.css:** Contains the CSS rules applied when the extension is active.
 
 When the extension is toggled, background.js injects the CSS defined in full-width.css or reloads the page, depending on the current state.
+
+## Changelog
+
+### [1.1] - 2024-01-16
+
+#### Fixed
+
+- Fixed Permisstions so that the Extention doesn't have to be toggled once to work.
+
+### [1.0] - 2024-01-16
+
+- First initial version
 
 ## License
 
