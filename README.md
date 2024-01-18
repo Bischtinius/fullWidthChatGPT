@@ -36,7 +36,7 @@ When the extension is toggled, background.js injects the CSS defined in full-wid
 
 #### Fixed
 
-- Fixed Permisstions so that the Extention doesn't have to be toggled once to work.
+- Fixed Permissions so that the Extension doesn't have to be toggled once to work.
 
 ### [1.0] - 2024-01-16
 
